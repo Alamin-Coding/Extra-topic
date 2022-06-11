@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Poppins:wght@100;200;300;400;500;700&display=swap');
+/* All Common CSS Satrt */
+*{
+    font-family: 'Poppins', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+img{
+    vertical-align: middle;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+a:hover{
+    text-decoration: none;
+}
+ul,ol,li{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+section{
+    padding: 120px 0;
+}
+/* All Common CSS End */
+/* =============================================
+            Preloader Part Start
+============================================= */
+.preloader{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background: rgb(122, 35, 35);
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+    transition: all linear .3s;
+}
+.preloader span {
+	color: #0E1925;
+	font-size: 120px;
+	text-transform: capitalize;
+	position: absolute;
+	top: 54%;
+}
+/* =============================================
+            Preloader Part End
+============================================= */
+
+
+/* =============================================
+            Color switcher Part Start
+============================================= */
+/* Type one start ==============*/
+#colorChenge{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: none;
+    position: fixed;
+    top: 90px;
+    left: 0;
+    z-index: 999;
+}
+/* Type one end */
+
+/* Type Two Start =================*/
+.cog span{
+    position: fixed;
+    top: 90px;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px 0 0 5px;
+    background: rgba(203, 203, 203, 0.545);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all linear .3s;
+}
+.cog.radius span{
+    border-radius: 5px 0 0 0;
+}
+.cog span i{
+    font-size: 30px;
+    color: #0E1925;
+}
+.color_switcher{
+    position: fixed;
+    top: 130px;
+    right: -200px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    z-index: 999;
+    width: 173px;
+    padding: 10px;
+    background: rgba(203, 203, 203, 0.545);
+    border-radius: 5px 0 0 5px;
+    transition: all linear .3s;
+}
+.color_switcher.slide{
+    right: 0px;
+}
+.color_switcher li{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.color_switcher li:nth-child(1){
+    background: #F15412;
+}
+.color_switcher li:nth-child(2){
+    background: #3A5BA0;
+}
+.color_switcher li:nth-child(3){
+    background: #34B3F1;
+}
+.color_switcher li:nth-child(4){
+    background: #FFA500;
+}
+.color_switcher li:nth-child(5){
+    background: #9EB23B;
+}
+.color_switcher li:nth-child(6){
+    background: #1363DF;
+}
+.color_switcher li:nth-child(7){
+    background: #816797;
+}
+.color_switcher li:nth-child(8){
+    background: #FF06B7;
+}
+.color_switcher li:nth-child(9){
+    background: #37E2D5;
+}
+.color_switcher li:nth-child(10){
+    background: #371B58;
+}
+.color_switcher li:nth-child(11){
+    background: #354259;
+}
+.color_switcher li:nth-child(12){
+    background: #5B4B8A;
+}
+    /* Type Two End */
+
+    /* Tpye Three start================ */
+.cog-3 span{
+    position: fixed;
+    top: 190px;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px 0 0 5px;
+    background: rgba(203, 203, 203, 0.545);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all linear .3s;
+}
+.cog-3.radius span{
+    border-radius: 5px 0 0 0;
+}
+.cog-3 span i{
+    font-size: 30px;
+    color: #F15412;
+}
+.color_switcher-3{
+    position: fixed;
+    top: 130px;
+    right: -200px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    z-index: 999;
+    width: 173px;
+    padding: 10px;
+    background: rgba(203, 203, 203, 0.545);
+    border-radius: 5px 0 0 5px;
+    transition: all linear .3s;
+}
+.color_switcher-3.slide{
+    right: 0px;
+}
+.color_switcher-3 li{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.color_switcher-3 li:nth-child(1){
+    background: #F15412;
+}
+.color_switcher-3 li:nth-child(2){
+    background: #3A5BA0;
+}
+.color_switcher-3 li:nth-child(3){
+    background: #34B3F1;
+}
+    /* Tpye Three end */
+
+/* =============================================
+Color switcher Part End
+============================================= */
+
+
+/* =============================================
+            Navbar Part Start
+============================================= */
+#navbar{
+    background: #243A73;
+    color: #A5BECC;
+}
+.navbar-brand span{
+    color: #123123;
+    font-size: 40px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: #eee;
+}
+.nav-link{
+    color: #A5BECC !important;
+    font-size: 16px;
+    line-height: 24px;
+}
+.side_bars{
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    cursor: pointer;
+}
+.side_bars  i{
+    color: #CBCBCB;
+    font-size: 30px;
+}
+/* =============================================
+            Navbar Part Start
+============================================= */
+
+
+/* =============================================
+            Banner Part Start
+============================================= */
+#banner{
+    background: url(../images/banner.png) no-repeat center/cover;
+    padding: 0;
+}
+#banner .overlay {
+	padding: 200px 0;
+	background: rgba(81, 81, 81, 0.51);
+}
+.banner_info{
+    padding: 0 50px;
+}
+.banner_info h1 {
+	text-align: center;
+	font-size: 60px;
+	text-transform: uppercase;
+	color: #232323;
+}
+.banner_info h1 span{
+    display: block;
+    font-size: 30px;
+    text-transform: capitalize;
+    font-style: italic;
+}
+/* =============================================
+            Banner Part End
+============================================= */
+
+
+
+
+/* =============================================
+            Skills Part Start
+============================================= */
+#skills .text{
+    padding: 0 50px 0 0; 
+}
+.common_heading{
+    padding-bottom: 40px;
+}
+.common_heading h2{
+    text-transform: uppercase;
+    color: #0E1925;
+    font-size: 46px;
+    line-height: 100%
+}
+.common_heading span{
+    color: #272b2f;
+    font-size: 18px;
+    line-height: 100%
+}
+#skills .text h3{
+    font-size: 30px;
+    text-transform: capitalize;
+    line-height: 44px;
+} 
+/* =============================================
+            Skills Part End
+============================================= */
+
+
+
+
+/* =============================================
+            success students Part Start
+============================================= */
+#success_students{
+    background: #eeeeee;
+}
+#success_students .youtube{
+    border-radius: 10px;
+    overflow: hidden;
+}
+#success_students .youtube iframe{
+    border-radius: 10px;
+}
+/* =============================================
+            success students Part End
+============================================= */
+
+
+
+
+/* =============================================
+            Banner Part Start
+============================================= */
+/* =============================================
+            Banner Part End
+============================================= */
+
+
+
