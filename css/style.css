@@ -265,6 +265,7 @@ Color switcher Part End
 }
 .banner_info{
     padding: 0 50px;
+    position: relative;
 }
 .banner_info h1{
     text-align: center;

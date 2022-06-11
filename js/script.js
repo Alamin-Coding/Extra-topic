@@ -103,6 +103,24 @@ colors_3.forEach(e => {
 // Color switcher js End =======================
 
 
+// Paralax Js Satrt==========================
+var scene = document.getElementById('scene');
+var parallaxInstance = new Parallax(scene);
+
+var scene_2 = document.getElementById('scene-2');
+var parallaxInstance = new Parallax(scene_2);
+
+var scene_3 = document.getElementById('scene-3');
+var parallaxInstance = new Parallax(scene_3);
+
+var scene_4 = document.getElementById('scene-4');
+var parallaxInstance = new Parallax(scene_4);
+
+var scene_5 = document.getElementById('scene-5');
+var parallaxInstance = new Parallax(scene_5);
+// Paralax Js end============================
+
+
 
 
 
